@@ -1,4 +1,4 @@
-مرحبا صابقاكنا نتحدث عن هادة وتوقفنا "أكيد. على Windows 10/11 افتح PowerShell كمسؤول (Run as Administrator) ونفّذ هذه الأوامر بالترتيب: powershell Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+9مرحبا صابقاكنا نتحدث عن هادة وتوقفنا "أكيد. على Windows 10/11 افتح PowerShell كمسؤول (Run as Administrator) ونفّذ هذه الأوامر بالترتيب: powershell Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
 powershell Start-Service sshd
 powershell Set-Service -Name sshd -StartupType Automatic
 ثم للتأكد من أن الخدمة تعمل: powershell Get-Service sshd
@@ -130,3 +130,8 @@ id_ed25519.pub 🟢 المفتاح العام (Public Key) هذا الذي تن�
 نحن نطلب من Termux عرض المفتاح العام فقط. سترى شيئًا شبيهًا بـ: text ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI............... هاتفك
 هذا السطر كاملًا هو الذي تنسخه إلى Windows. أما هذا: text ~/.ssh/id_ed25519
 🔴 لا تفتحه ولا تنسخه ولا ترسله لي أو لأي شخص. إذا أردت، أستطيع أن ، وأقول لك بالضبط ماذا تكتب في كل سؤال يظهر أمامك." لاكن انا اواجه مشكل في الترتيب وتأكد مادة افعل ولقد واجهة مشكل في صلاحيات المستخدم ايضا لهادة اريد مساعدة في الترتيب انا اريد فقط ماهو ضروري
+
+
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF1hPszVvfOufoNgX0OidHUfUpHHgL/pxjsj3IsXY5Gp u0_a1169@localhost
