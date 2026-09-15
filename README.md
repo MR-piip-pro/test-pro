@@ -135,3 +135,12 @@ id_ed25519.pub 🟢 المفتاح العام (Public Key) هذا الذي تن�
 
 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF1hPszVvfOufoNgX0OidHUfUpHHgL/pxjsj3IsXY5Gp u0_a1169@localhost
+
+
+
+~ $ ssh -v -i ~/.ssh/id_ed25519 RF@192.168.11.101
+debug1: OpenSSH_10.3p1, OpenSSL 3.6.3 9 Jun 2026
+debug1: Reading configuration data /data/data/com.termux/files/usr/etc/ssh/ssh_config
+debug1: /data/data/com.termux/files/usr/etc/ssh/ssh_config line 20: include /data/data/com.termux/files/usr/etc/ssh/ssh_config.d/*.conf matched no files
+debug1: Authenticator provider $SSH_SK_PROVIDER did not resolve; disabling
+debug1: Connecting to 192.168.11.101 [192.168.11.101] port 22.
